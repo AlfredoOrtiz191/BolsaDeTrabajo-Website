@@ -1,0 +1,51 @@
+body{
+	font-family: 'Lato', sans-serif;
+	color:#777;
+}
+#Menu{
+		font-family: 'Montserrat', sans-serif;
+		font-size: 20px;
+		letter-spacing: 4px;
+}
+.aprincipal{
+	color:#000000;
+	font-weight: bold;
+}
+h2, h3{
+	font-weight: bold;
+}
+.carousel-indicators li{
+	background-color: #000000;
+}
+#section2{
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+#section3 article{
+	margin-bottom: 20px;
+}
+#imagenes{
+	padding: none;
+}
+#section4{
+	margin: 60px 0px 30px 0px;
+}
+footer{
+	height: 30%;
+	background-color: #2d2d30;
+	color: #f5f5f5;
+	padding: 32px;
+}
+footer li{
+	display: inline-block;
+}
+#RedesSociales{
+	float: none;
+}
+@media(max-width: 600px){
+	#carrusel{display: none;}
+	#imagenes{display: none;}
+	#menubajo{display: none;}
+	body {background-color: #494f55;
+				color: white}
+}
